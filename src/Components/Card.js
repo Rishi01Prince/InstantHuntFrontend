@@ -83,7 +83,7 @@ export default function Card(props) {
                 <h5 className="card-title">{props.vdata.name}</h5>
                 {/* <p className="card-text">{props.des}</p> */}
                 {/* <a href="/" className="btn btn-primary" onClick={handleAddToCart}>Add to Card</a> */}
-                <button className="btn btn-primary" onClick={handleAddToCart}>Add to Card</button>
+                <button className="btn btn-primary" onClick={handleAddToCart}>Add to Cart</button>
                 <div className='container w-100'>
                     {/* drop down for quantity */}
                     <select className='m-2 h-100 w-100 bg rounded' onChange={(e) => setQty(e.target.value)}>
