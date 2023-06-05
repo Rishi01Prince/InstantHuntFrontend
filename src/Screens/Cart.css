@@ -1,0 +1,77 @@
+/* cart.css */
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  th {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .fs-2 {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    padding: 0;
+  }
+  
+  .btn-danger {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-success {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-5 {
+    margin-top: 2.5rem;
+  }
+  
+  /* Media queries */
+  @media (max-width: 576px) {
+    /* Small devices (landscape phones) */
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Medium devices (tablets) */
+    .table-responsive-md {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+  }
+  

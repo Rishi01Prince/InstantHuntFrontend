@@ -1,0 +1,84 @@
+/* Navbar background */
+.navbar {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar brand text color and font size */
+  .navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  /* Navbar toggler icon color */
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  
+  /* Navbar links color and font size */
+  .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Active link color and background color */
+  .nav-link.active {
+    color: #fdca40;
+    background-color: transparent;
+    border-bottom: 3px solid #fdca40;
+  }
+  
+  /* Hover link color and background color */
+  .nav-link:hover {
+    color: #fdca40;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown link color and font size */
+  .dropdown-toggle {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Dropdown menu background color */
+  .dropdown-menu {
+    background-color: #1a1a1a;
+  }
+  
+  /* Dropdown item link color and font size */
+  .dropdown-item {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Divider color */
+  .dropdown-divider {
+    background-color: #666666;
+  }
+  
+  /* Disabled link color */
+  .nav-link.disabled {
+    color: #666666;
+  }
+  
+  /* Search input background and border color */
+  .form-control {
+    background-color: #3f3f3f;
+    border-color: #666666;
+    color: #fff;
+  }
+  
+  /* Search button color */
+  .btn-outline-success {
+    color: #fff;
+    border-color: #fdca40;
+    font-size: 1.2rem;
+  }
+  
+  /* Search button hover background and text color */
+  .btn-outline-success:hover {
+    background-color: #fdca40;
+    color: #1a1a1a;
+  }
+  
