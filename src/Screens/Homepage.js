@@ -16,7 +16,7 @@ export default function Homepage() {
 
   const loadVechicleData = async () => {
 
-    let response = await fetch("http://localhost:5000/api/VechicleData", {
+    let response = await fetch("https://instant-hunt-backend.onrender.com/api/VechicleData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
