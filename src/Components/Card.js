@@ -83,8 +83,7 @@ export default function Card(props) {
                 <h5 className="card-title">{props.vdata.name}</h5>
                 {/* <p className="card-text">{props.des}</p> */}
                 {/* <a href="/" className="btn btn-primary" onClick={handleAddToCart}>Add to Card</a> */}
-
-                <button className="btn btn-primary" onClick={handleAddToCart}>Add to Cart</button>
+                <button className="btn btn-primary" onClick={handleAddToCart}>Add to Card</button>
                 <div className='container w-100'>
                     {/* drop down for quantity */}
                     <select className='m-2 h-100 w-100 bg rounded' onChange={(e) => setQty(e.target.value)}>
@@ -92,7 +91,6 @@ export default function Card(props) {
               <option key={i + 1} value={i + 1}>{i + 1}</option>
             ))}
           </select>
-          
           <select className="m-2 h-100 bg rounded" ref={priceRef} style={{ select: "#FF0000" }} onChange={(e) => setSpan(e.target.value)}>
             {priceOptions.map((data) => (
               <option key={data}>{data}</option>

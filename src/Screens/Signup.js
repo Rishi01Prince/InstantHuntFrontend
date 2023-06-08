@@ -80,7 +80,7 @@ export default function Signup() {
         //Koi error ni mila to ab aage ka kaam dekhte hai
         //Backend Ka Kaam Chalu krte hai
 
-        const response = await fetch("https://instant-hunt-backend.onrender.com/api/createuser", {
+        const response = await fetch("http://localhost:5000/api/createuser", {
 
             method: 'POST',
             headers: {

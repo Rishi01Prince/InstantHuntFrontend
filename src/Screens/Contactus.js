@@ -1,12 +1,8 @@
 import React from 'react';
-// import { Navbar } from 'react-bootstrap';
-// import Navbar from '../Components/Navbar';
-import './Contactus.css';
-// import Footer from '../Components/Footer';
+
 export default function Contactus() {
   return (
     <div>
-      {/* <Navbar /> */}
       {/* Section: Contact v.2 */}
       <section className="mb-4">
         {/* Section heading */}
@@ -81,29 +77,26 @@ export default function Contactus() {
           {/* Grid column */}
           <div className="col-md-3 text-center">
             <ul className="list-unstyled mb-0">
+              
 
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Lpu Law Gate, Punjab , India</p>
+                </li>
 
-              <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>Lpu Law Gate, Punjab , India</p>
-              </li>
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 91 918765432</p>
+                </li>
 
-              <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 91 918765432</p>
-              </li>
-
-              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>contact@ rishi01prince@gmail.com</p>
-              </li>
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@ rishi01prince@gmail.com</p>
+                </li>
             </ul>
-          </div>
-
         </div>
+        
+    </div>
 
-      </section>
+</section>
 
-
-    {/* <Footer/> */}
-
-    </div >
+    </div>
   )
 }
