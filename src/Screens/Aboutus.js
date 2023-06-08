@@ -1,13 +1,13 @@
 import React from 'react';
 import './Aboutus.css';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+// import Navbar from '../Components/Navbar';
+// import Footer from '../Components/Footer';
 
 function AboutUs() {
   return (
 
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <section className="about-us">
         <div className="containera">
           <h2 className="about-us__heading">About Us</h2>
@@ -22,7 +22,7 @@ function AboutUs() {
           </p>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

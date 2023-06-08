@@ -1,12 +1,12 @@
 import React from 'react';
 // import { Navbar } from 'react-bootstrap';
-import Navbar from '../Components/Navbar';
+// import Navbar from '../Components/Navbar';
 import './Contactus.css';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 export default function Contactus() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Section: Contact v.2 */}
       <section className="mb-4">
         {/* Section heading */}
@@ -102,7 +102,7 @@ export default function Contactus() {
       </section>
 
 
-    <Footer/>
+    {/* <Footer/> */}
 
     </div >
   )
