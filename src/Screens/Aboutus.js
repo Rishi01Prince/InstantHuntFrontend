@@ -9,7 +9,7 @@ function AboutUs() {
     <div>
       <Navbar />
       <section className="about-us">
-        <div className="container">
+        <div className="containera">
           <h2 className="about-us__heading">About Us</h2>
           <p className="about-us__description">
             At our vehicle renting service, we believe that everyone should have access to safe, reliable transportation. That's why we offer a variety of rental options for both half-day and full-day rentals. Whether you're looking to run errands or take a road trip, we have the perfect vehicle for your needs.
