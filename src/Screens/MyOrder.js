@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Footer from '../Components/Footer';
-import Navbar from '../Components/Navbar';
 import './MyOrder.css';
 
 export default function MyOrder() {
@@ -45,7 +43,6 @@ export default function MyOrder() {
 
   return (
     <div>
-      <Navbar />
         <div className='rishimyorder-heading'>Your  Orders : </div>
       <div className='rishicontainer' style={{paddingBottom : "100px"}}>
         <div className='rishirow'>
@@ -73,7 +70,6 @@ export default function MyOrder() {
           )}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

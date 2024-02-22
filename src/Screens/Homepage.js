@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Footer from '../Components/Footer';
-import Navbar from '../Components/Navbar';
 import Card from '../Components/Card';
 import Carousel from '../Components/Carousel';
 import obj from '../Data/DataOfCards'; // Updated import

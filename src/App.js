@@ -18,11 +18,10 @@ import {
   Link
 } from "react-router-dom";
 
-import Carousel from './Components/Carousel';
+
 import Signup from './Screens/Signup';
 import Aboutus from './Screens/Aboutus';
 import Contactus from './Screens/Contactus';
-import Cart from './Screens/Cart';
 import MyOrder from './Screens/MyOrder';
 
 
