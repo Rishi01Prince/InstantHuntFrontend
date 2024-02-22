@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+
 import { Nav } from 'react-bootstrap';
 export default function Signup() {
     
@@ -114,7 +113,6 @@ export default function Signup() {
     return (
         
         <div>
-        <Navbar/>
             <div>
                 <div className="container h-100">
                     <div className="row d-flex justify-content-center align-items-center h-100">
@@ -215,8 +213,6 @@ export default function Signup() {
                     </div>
                 </div>
             </div>
-            <Footer/>
-
         </div>
     )
 };
