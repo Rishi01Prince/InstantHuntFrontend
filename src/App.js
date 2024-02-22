@@ -2,6 +2,8 @@ import './App.css';
 import Homepage from './Screens/Homepage';
 import Login from './Screens/Login';
 import { CartProvider } from './Components/ContextReducer';
+import Footer from './Components/Footer.js';
+import Navbar from './Components/Navbar.js';
 
 
 // Carousel bootstrap
@@ -29,6 +31,7 @@ function App() {
   return (
     <CartProvider>
     <div className="App">
+      <Navbar/>
       <Routes>
         <Route exact path='/' element = {<Homepage/>}/> 
         <Route exact path='/aboutus' element = {<Aboutus/>}/> 
@@ -37,7 +40,7 @@ function App() {
         <Route exact path='/signup' element = {<Signup/>}/> 
         <Route exact path='/myorder' element = {<MyOrder/>}/>
       </Routes>
-      
+      <Footer/>
     </div>
     </CartProvider>
   );

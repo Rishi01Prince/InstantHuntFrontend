@@ -49,7 +49,6 @@ useEffect(() => {
 
   return (
     <div>
-      <Navbar />
 
       <div className="d-flex justify-content-center">
         <input
@@ -106,7 +105,6 @@ useEffect(() => {
           ""
         )}
       </div>
-      <Footer />
     </div>
   );
 }
